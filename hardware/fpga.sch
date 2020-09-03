@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:basic-ecp5-pcb-cache
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "basic ecp5 board"
 Date "2020-07-16"
 Rev "0.1"
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 1 1 5F10BE82
 P 10400 7650
 F 0 "U1" H 11200 8650 118 0000 L CNN
@@ -26,7 +27,7 @@ F 4 "LFE5U-45F-6BG256C‎" H 10550 7600 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 2 1 5F10DDFC
 P 950 2150
 F 0 "U1" H 1700 3200 118 0000 L CNN
@@ -38,7 +39,7 @@ F 4 "LFE5U-45F-6BG256C‎" H 1100 2100 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 3 1 5F111AF1
 P 3550 2150
 F 0 "U1" H 4300 3200 118 0000 L CNN
@@ -50,7 +51,7 @@ F 4 "LFE5U-45F-6BG256C‎" H 3700 2100 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 4 1 5F1149C5
 P 6350 2150
 F 0 "U1" H 7300 3200 118 0000 L CNN
@@ -62,7 +63,7 @@ F 4 "LFE5U-45F-6BG256C‎" H 6500 2100 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 5 1 5F1182AD
 P 9850 2100
 F 0 "U1" H 10700 3100 118 0000 L CNN
@@ -74,7 +75,7 @@ F 4 "LFE5U-45F-6BG256C‎" H 10000 2050 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 6 1 5F120FEF
 P 13250 2050
 F 0 "U1" H 14200 3000 118 0000 L CNN
@@ -86,7 +87,7 @@ F 4 "LFE5U-45F-6BG256C‎" H 13400 2000 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 7 1 5F12C303
 P 1450 7400
 F 0 "U1" H 2300 8450 118 0000 L CNN
@@ -98,7 +99,7 @@ F 4 "LFE5U-45F-6BG256C‎" H 1600 7350 60  0001 R CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 9 1 5F14250E
 P 14200 7450
 F 0 "U1" H 14350 7950 118 0000 L CNN
@@ -717,9 +718,11 @@ Wire Wire Line
 Wire Wire Line
 	6450 7000 6450 6900
 $Comp
-L Device:R_Pack04_Split RN1
+L basic-ecp5-pcb-rescue:R_Pack04_Split-Device RN1
 U 1 1 5F2923DD
 P 5950 9550
+AR Path="/5F2923DD" Ref="RN1"  Part="1" 
+AR Path="/5F109712/5F2923DD" Ref="RN1"  Part="1" 
 F 0 "RN1" H 6038 9596 50  0001 L CNN
 F 1 "10k" V 5950 9450 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 5870 9550 50  0001 C CNN
@@ -729,9 +732,11 @@ F 4 "EXBV8V103JV" H 5950 9550 50  0001 C CNN "manf#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Pack04_Split RN1
+L basic-ecp5-pcb-rescue:R_Pack04_Split-Device RN1
 U 2 1 5F2B9F61
 P 6150 7150
+AR Path="/5F2B9F61" Ref="RN1"  Part="2" 
+AR Path="/5F109712/5F2B9F61" Ref="RN1"  Part="2" 
 F 0 "RN1" H 6238 7196 50  0001 L CNN
 F 1 "10k" V 6150 7100 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6070 7150 50  0001 C CNN
@@ -741,9 +746,11 @@ F 4 "EXBV8V103JV" H 6150 7150 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_Split RN2
+L basic-ecp5-pcb-rescue:R_Pack04_Split-Device RN2
 U 1 1 5F2BAD04
 P 5750 7150
+AR Path="/5F2BAD04" Ref="RN2"  Part="1" 
+AR Path="/5F109712/5F2BAD04" Ref="RN2"  Part="1" 
 F 0 "RN2" H 5838 7196 50  0001 L CNN
 F 1 "10k" V 5750 7100 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 5670 7150 50  0001 C CNN
@@ -753,9 +760,11 @@ F 4 "EXBV8V103JV" H 5750 7150 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_Split RN2
+L basic-ecp5-pcb-rescue:R_Pack04_Split-Device RN2
 U 2 1 5F2BBBFC
 P 6250 7150
+AR Path="/5F2BBBFC" Ref="RN2"  Part="2" 
+AR Path="/5F109712/5F2BBBFC" Ref="RN2"  Part="2" 
 F 0 "RN2" H 5750 7500 50  0001 L CNN
 F 1 "10k" V 6250 7100 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6170 7150 50  0001 C CNN
@@ -765,9 +774,11 @@ F 4 "EXBV8V103JV" H 6250 7150 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_Split RN2
+L basic-ecp5-pcb-rescue:R_Pack04_Split-Device RN2
 U 3 1 5F2BC5CC
 P 6350 7150
+AR Path="/5F2BC5CC" Ref="RN2"  Part="3" 
+AR Path="/5F109712/5F2BC5CC" Ref="RN2"  Part="3" 
 F 0 "RN2" H 6600 7500 50  0001 L CNN
 F 1 "10k" V 6350 7100 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6270 7150 50  0001 C CNN
@@ -777,9 +788,11 @@ F 4 "EXBV8V103JV" H 6350 7150 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_Split RN2
+L basic-ecp5-pcb-rescue:R_Pack04_Split-Device RN2
 U 4 1 5F2BCE12
 P 5850 7150
+AR Path="/5F2BCE12" Ref="RN2"  Part="4" 
+AR Path="/5F109712/5F2BCE12" Ref="RN2"  Part="4" 
 F 0 "RN2" H 6100 7550 50  0001 L CNN
 F 1 "10k" V 5850 7100 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 5770 7150 50  0001 C CNN
@@ -789,9 +802,11 @@ F 4 "EXBV8V103JV" H 5850 7150 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_Split RN1
+L basic-ecp5-pcb-rescue:R_Pack04_Split-Device RN1
 U 4 1 5F2C115D
 P 6450 7150
+AR Path="/5F2C115D" Ref="RN1"  Part="4" 
+AR Path="/5F109712/5F2C115D" Ref="RN1"  Part="4" 
 F 0 "RN1" H 6538 7196 50  0001 L CNN
 F 1 "10k" V 6450 7050 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6370 7150 50  0001 C CNN
@@ -801,9 +816,11 @@ F 4 "EXBV8V103JV" H 6450 7150 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_Split RN1
+L basic-ecp5-pcb-rescue:R_Pack04_Split-Device RN1
 U 3 1 5F2C06DF
 P 6050 9550
+AR Path="/5F2C06DF" Ref="RN1"  Part="3" 
+AR Path="/5F109712/5F2C06DF" Ref="RN1"  Part="3" 
 F 0 "RN1" H 6138 9596 50  0001 L CNN
 F 1 "10k" V 6050 9450 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 5970 9550 50  0001 C CNN
@@ -820,7 +837,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 7450 6600 7450
 $Comp
-L Lattice_ECP_FPGA:ECP5U_45_CABGA256 U1
+L basic-ecp5-pcb-rescue:ECP5U_45_CABGA256-Lattice_ECP_FPGA U1
 U 8 1 5F1343A1
 P 6600 7450
 F 0 "U1" H 7550 8200 118 0000 L CNN
